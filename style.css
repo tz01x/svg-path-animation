@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.ic-wrapper {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -1000;
+  right: -1000;
+  background: black;
+  border: 2px solid rgb(126, 126, 126);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic-wrapper i {
+  color: white;
+  font-size: 30px;
+}
+
+.ic-wrapper.linkedin {
+  background: white;
+}
+.ic-wrapper .fa-linkedin-in {
+  font-size: 25px;
+  color: black;
+}
